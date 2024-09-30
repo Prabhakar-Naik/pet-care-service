@@ -1,5 +1,6 @@
-package com.springboot.petcareservice.model;
+package com.springboot.petcareservice.admin.model;
 
+import com.springboot.petcareservice.model.User;
 import jakarta.persistence.Entity;
 import jakarta.persistence.PrimaryKeyJoinColumn;
 import lombok.AllArgsConstructor;
@@ -16,6 +17,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @PrimaryKeyJoinColumn(name = "admin_id")
-public class Admin extends User{
+public class Admin extends User {
     private long id;
 }

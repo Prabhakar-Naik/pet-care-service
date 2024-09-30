@@ -1,6 +1,6 @@
-package com.springboot.petcareservice.repository;
+package com.springboot.petcareservice.admin.repository;
 
-import com.springboot.petcareservice.model.Admin;
+import com.springboot.petcareservice.admin.model.Admin;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

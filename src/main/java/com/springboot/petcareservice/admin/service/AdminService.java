@@ -1,8 +1,7 @@
-package com.springboot.petcareservice.service.admin;
+package com.springboot.petcareservice.admin.service;
 
 import com.springboot.petcareservice.dtos.AdminDto;
-import com.springboot.petcareservice.model.Admin;
-import com.springboot.petcareservice.model.Patient;
+import com.springboot.petcareservice.admin.model.Admin;
 
 import java.util.List;
 

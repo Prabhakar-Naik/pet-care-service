@@ -1,11 +1,10 @@
-package com.springboot.petcareservice.service.admin;
+package com.springboot.petcareservice.admin.service;
 
 import com.springboot.petcareservice.dtos.AdminDto;
 import com.springboot.petcareservice.dtos.EntityConverter;
-import com.springboot.petcareservice.dtos.PatientDto;
 import com.springboot.petcareservice.exceptions.ResourceNotFoundException;
-import com.springboot.petcareservice.model.Admin;
-import com.springboot.petcareservice.repository.AdminRepository;
+import com.springboot.petcareservice.admin.model.Admin;
+import com.springboot.petcareservice.admin.repository.AdminRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
