@@ -1,6 +1,6 @@
-package com.springboot.petcareservice.repository;
+package com.springboot.petcareservice.appointments.repository;
 
-import com.springboot.petcareservice.model.Appointment;
+import com.springboot.petcareservice.appointments.model.Appointment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

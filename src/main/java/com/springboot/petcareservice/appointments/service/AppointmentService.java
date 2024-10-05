@@ -1,7 +1,7 @@
-package com.springboot.petcareservice.service.appointment;
+package com.springboot.petcareservice.appointments.service;
 
 import com.springboot.petcareservice.enums.AppointmentStatus;
-import com.springboot.petcareservice.model.Appointment;
+import com.springboot.petcareservice.appointments.model.Appointment;
 import com.springboot.petcareservice.request.AppointmentRequest;
 
 import java.util.List;

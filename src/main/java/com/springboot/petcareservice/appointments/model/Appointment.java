@@ -1,6 +1,7 @@
-package com.springboot.petcareservice.model;
+package com.springboot.petcareservice.appointments.model;
 
 import com.springboot.petcareservice.enums.AppointmentStatus;
+import com.springboot.petcareservice.model.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,7 +9,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Random;
