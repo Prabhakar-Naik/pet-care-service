@@ -1,22 +1,15 @@
 package com.springboot.petcareservice.factory;
 
-import com.springboot.petcareservice.enums.UserType;
 import com.springboot.petcareservice.exceptions.UserAlreadyExistsException;
 import com.springboot.petcareservice.exceptions.UserNotFoundException;
 import com.springboot.petcareservice.model.User;
-import com.springboot.petcareservice.repository.AdminRepository;
-import com.springboot.petcareservice.repository.PatientRepository;
 import com.springboot.petcareservice.repository.UserRepository;
-import com.springboot.petcareservice.repository.VeterinarianRepository;
 import com.springboot.petcareservice.request.RegistrationRequest;
 import com.springboot.petcareservice.request.UserUpdateRequest;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;
-
-import static com.springboot.petcareservice.enums.UserType.*;
 
 /**
  * @author prabhakar, @Date 17-09-2024

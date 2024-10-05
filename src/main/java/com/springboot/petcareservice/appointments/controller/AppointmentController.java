@@ -1,18 +1,12 @@
-package com.springboot.petcareservice.controller;
+package com.springboot.petcareservice.appointments.controller;
 
-import com.springboot.petcareservice.dtos.AdminDto;
 import com.springboot.petcareservice.dtos.AppointmentDto;
 import com.springboot.petcareservice.dtos.EntityConverter;
-import com.springboot.petcareservice.dtos.UserDto;
 import com.springboot.petcareservice.exceptions.UserAlreadyExistsException;
-import com.springboot.petcareservice.model.Admin;
-import com.springboot.petcareservice.model.Appointment;
-import com.springboot.petcareservice.model.User;
+import com.springboot.petcareservice.appointments.model.Appointment;
 import com.springboot.petcareservice.request.AppointmentRequest;
-import com.springboot.petcareservice.request.RegistrationRequest;
 import com.springboot.petcareservice.response.ApiResponse;
-import com.springboot.petcareservice.service.admin.AdminService;
-import com.springboot.petcareservice.service.appointment.AppointmentService;
+import com.springboot.petcareservice.appointments.service.AppointmentService;
 import com.springboot.petcareservice.utils.FeedBackMessage;
 import com.springboot.petcareservice.utils.UrlMapping;
 import lombok.RequiredArgsConstructor;

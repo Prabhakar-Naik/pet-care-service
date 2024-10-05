@@ -1,9 +1,8 @@
 package com.springboot.petcareservice.factory;
 
-import com.springboot.petcareservice.model.Admin;
-import com.springboot.petcareservice.model.Patient;
+import com.springboot.petcareservice.admin.model.Admin;
 import com.springboot.petcareservice.model.User;
-import com.springboot.petcareservice.repository.AdminRepository;
+import com.springboot.petcareservice.admin.repository.AdminRepository;
 import com.springboot.petcareservice.repository.UserRepository;
 import com.springboot.petcareservice.request.RegistrationRequest;
 import com.springboot.petcareservice.request.UserUpdateRequest;

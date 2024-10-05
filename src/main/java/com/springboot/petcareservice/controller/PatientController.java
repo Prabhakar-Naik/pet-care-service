@@ -1,13 +1,10 @@
 package com.springboot.petcareservice.controller;
 
-import com.springboot.petcareservice.dtos.AdminDto;
 import com.springboot.petcareservice.dtos.EntityConverter;
 import com.springboot.petcareservice.dtos.PatientDto;
 import com.springboot.petcareservice.exceptions.ResourceNotFoundException;
 import com.springboot.petcareservice.exceptions.UserNotFoundException;
-import com.springboot.petcareservice.model.Admin;
 import com.springboot.petcareservice.model.Patient;
-import com.springboot.petcareservice.model.User;
 import com.springboot.petcareservice.response.ApiResponse;
 import com.springboot.petcareservice.service.patient.PatientService;
 import com.springboot.petcareservice.utils.FeedBackMessage;

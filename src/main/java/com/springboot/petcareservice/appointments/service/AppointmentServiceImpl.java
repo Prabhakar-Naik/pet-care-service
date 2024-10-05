@@ -1,11 +1,11 @@
-package com.springboot.petcareservice.service.appointment;
+package com.springboot.petcareservice.appointments.service;
 
 import com.springboot.petcareservice.enums.AppointmentStatus;
 import com.springboot.petcareservice.exceptions.ResourceNotFoundException;
 import com.springboot.petcareservice.exceptions.UserNotFoundException;
-import com.springboot.petcareservice.model.Appointment;
+import com.springboot.petcareservice.appointments.model.Appointment;
 import com.springboot.petcareservice.model.User;
-import com.springboot.petcareservice.repository.AppointmentRepository;
+import com.springboot.petcareservice.appointments.repository.AppointmentRepository;
 import com.springboot.petcareservice.repository.UserRepository;
 import com.springboot.petcareservice.request.AppointmentRequest;
 import lombok.RequiredArgsConstructor;
