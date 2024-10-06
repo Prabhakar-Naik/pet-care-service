@@ -1,8 +1,6 @@
 package com.springboot.petcareservice.service;
 
-import com.springboot.petcareservice.dtos.PatientDto;
 import com.springboot.petcareservice.dtos.VeterinarianDto;
-import com.springboot.petcareservice.model.Patient;
 import com.springboot.petcareservice.model.Veterinarian;
 
 import java.util.List;

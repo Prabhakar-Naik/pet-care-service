@@ -1,12 +1,10 @@
-package com.springboot.petcareservice.service.patient;
+package com.springboot.petcareservice.patients.service;
 
 import com.springboot.petcareservice.dtos.EntityConverter;
 import com.springboot.petcareservice.dtos.PatientDto;
-import com.springboot.petcareservice.dtos.UserDto;
 import com.springboot.petcareservice.exceptions.ResourceNotFoundException;
-import com.springboot.petcareservice.model.Patient;
-import com.springboot.petcareservice.repository.PatientRepository;
-import com.springboot.petcareservice.repository.UserRepository;
+import com.springboot.petcareservice.patients.model.Patient;
+import com.springboot.petcareservice.patients.repository.PatientRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
