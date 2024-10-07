@@ -1,8 +1,7 @@
-package com.springboot.petcareservice.service.patient;
+package com.springboot.petcareservice.patients.service;
 
 import com.springboot.petcareservice.dtos.PatientDto;
-import com.springboot.petcareservice.model.Patient;
-import org.springframework.stereotype.Service;
+import com.springboot.petcareservice.patients.model.Patient;
 
 import java.util.List;
 

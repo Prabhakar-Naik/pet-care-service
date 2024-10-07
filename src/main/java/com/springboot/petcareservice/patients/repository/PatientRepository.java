@@ -1,6 +1,6 @@
-package com.springboot.petcareservice.repository;
+package com.springboot.petcareservice.patients.repository;
 
-import com.springboot.petcareservice.model.Patient;
+import com.springboot.petcareservice.patients.model.Patient;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
