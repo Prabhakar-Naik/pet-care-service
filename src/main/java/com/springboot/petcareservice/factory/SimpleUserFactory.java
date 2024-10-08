@@ -2,8 +2,8 @@ package com.springboot.petcareservice.factory;
 
 import com.springboot.petcareservice.exceptions.UserAlreadyExistsException;
 import com.springboot.petcareservice.exceptions.UserNotFoundException;
-import com.springboot.petcareservice.model.User;
-import com.springboot.petcareservice.repository.UserRepository;
+import com.springboot.petcareservice.users.model.User;
+import com.springboot.petcareservice.users.repository.UserRepository;
 import com.springboot.petcareservice.request.RegistrationRequest;
 import com.springboot.petcareservice.request.UserUpdateRequest;
 import lombok.RequiredArgsConstructor;

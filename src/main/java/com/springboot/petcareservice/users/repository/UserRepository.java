@@ -1,6 +1,6 @@
-package com.springboot.petcareservice.repository;
+package com.springboot.petcareservice.users.repository;
 
-import com.springboot.petcareservice.model.User;
+import com.springboot.petcareservice.users.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

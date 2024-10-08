@@ -1,4 +1,4 @@
-package com.springboot.petcareservice.model;
+package com.springboot.petcareservice.users.model;
 
 import com.springboot.petcareservice.appointments.model.Appointment;
 import com.springboot.petcareservice.enums.UserType;

@@ -1,7 +1,7 @@
-package com.springboot.petcareservice.service.user;
+package com.springboot.petcareservice.users.service;
 
 import com.springboot.petcareservice.dtos.UserDto;
-import com.springboot.petcareservice.model.User;
+import com.springboot.petcareservice.users.model.User;
 import com.springboot.petcareservice.request.RegistrationRequest;
 import com.springboot.petcareservice.request.UserUpdateRequest;
 

@@ -1,8 +1,7 @@
 package com.springboot.petcareservice.dtos;
 
 import com.springboot.petcareservice.enums.AppointmentStatus;
-import com.springboot.petcareservice.model.User;
-import jakarta.persistence.*;
+import com.springboot.petcareservice.users.model.User;
 import lombok.Data;
 
 import java.time.LocalDate;
