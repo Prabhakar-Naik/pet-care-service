@@ -1,9 +1,9 @@
 package com.springboot.petcareservice.factory;
 
 import com.springboot.petcareservice.users.model.User;
-import com.springboot.petcareservice.model.Veterinarian;
+import com.springboot.petcareservice.veterinarians.model.Veterinarian;
 import com.springboot.petcareservice.users.repository.UserRepository;
-import com.springboot.petcareservice.repository.VeterinarianRepository;
+import com.springboot.petcareservice.veterinarians.repository.VeterinarianRepository;
 import com.springboot.petcareservice.request.RegistrationRequest;
 import com.springboot.petcareservice.request.UserUpdateRequest;
 import com.springboot.petcareservice.users.service.UserAttributesMapper;

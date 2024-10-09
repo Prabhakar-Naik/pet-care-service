@@ -1,4 +1,4 @@
-package com.springboot.petcareservice.model;
+package com.springboot.petcareservice.veterinarians.model;
 
 import com.springboot.petcareservice.users.model.User;
 import jakarta.persistence.Entity;

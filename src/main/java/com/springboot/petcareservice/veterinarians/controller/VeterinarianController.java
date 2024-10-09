@@ -1,12 +1,12 @@
-package com.springboot.petcareservice.controller;
+package com.springboot.petcareservice.veterinarians.controller;
 
 import com.springboot.petcareservice.dtos.EntityConverter;
 import com.springboot.petcareservice.dtos.VeterinarianDto;
 import com.springboot.petcareservice.exceptions.ResourceNotFoundException;
 import com.springboot.petcareservice.exceptions.UserNotFoundException;
-import com.springboot.petcareservice.model.Veterinarian;
+import com.springboot.petcareservice.veterinarians.model.Veterinarian;
 import com.springboot.petcareservice.response.ApiResponse;
-import com.springboot.petcareservice.service.VeterinarianService;
+import com.springboot.petcareservice.veterinarians.service.VeterinarianService;
 import com.springboot.petcareservice.utils.FeedBackMessage;
 import com.springboot.petcareservice.utils.UrlMapping;
 import lombok.RequiredArgsConstructor;
