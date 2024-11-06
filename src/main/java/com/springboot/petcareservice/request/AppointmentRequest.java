@@ -1,8 +1,5 @@
 package com.springboot.petcareservice.request;
 
-import com.springboot.petcareservice.enums.AppointmentStatus;
-import com.springboot.petcareservice.model.User;
-import jakarta.persistence.*;
 import lombok.Data;
 
 import java.time.LocalDate;

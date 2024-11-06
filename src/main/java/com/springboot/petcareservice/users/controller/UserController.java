@@ -1,14 +1,14 @@
-package com.springboot.petcareservice.controller;
+package com.springboot.petcareservice.users.controller;
 
 import com.springboot.petcareservice.dtos.EntityConverter;
 import com.springboot.petcareservice.dtos.UserDto;
 import com.springboot.petcareservice.exceptions.UserAlreadyExistsException;
 import com.springboot.petcareservice.exceptions.UserNotFoundException;
-import com.springboot.petcareservice.model.User;
+import com.springboot.petcareservice.users.model.User;
 import com.springboot.petcareservice.request.RegistrationRequest;
 import com.springboot.petcareservice.request.UserUpdateRequest;
 import com.springboot.petcareservice.response.ApiResponse;
-import com.springboot.petcareservice.service.user.UserService;
+import com.springboot.petcareservice.users.service.UserService;
 import com.springboot.petcareservice.utils.FeedBackMessage;
 import com.springboot.petcareservice.utils.UrlMapping;
 import lombok.RequiredArgsConstructor;

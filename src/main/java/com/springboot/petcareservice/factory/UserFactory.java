@@ -1,6 +1,6 @@
 package com.springboot.petcareservice.factory;
 
-import com.springboot.petcareservice.model.User;
+import com.springboot.petcareservice.users.model.User;
 import com.springboot.petcareservice.request.RegistrationRequest;
 import com.springboot.petcareservice.request.UserUpdateRequest;
 

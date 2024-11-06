@@ -1,16 +1,14 @@
 package com.springboot.petcareservice.factory;
 
-import com.springboot.petcareservice.model.User;
-import com.springboot.petcareservice.model.Veterinarian;
-import com.springboot.petcareservice.repository.UserRepository;
-import com.springboot.petcareservice.repository.VeterinarianRepository;
+import com.springboot.petcareservice.users.model.User;
+import com.springboot.petcareservice.veterinarians.model.Veterinarian;
+import com.springboot.petcareservice.users.repository.UserRepository;
+import com.springboot.petcareservice.veterinarians.repository.VeterinarianRepository;
 import com.springboot.petcareservice.request.RegistrationRequest;
 import com.springboot.petcareservice.request.UserUpdateRequest;
-import com.springboot.petcareservice.service.user.UserAttributesMapper;
+import com.springboot.petcareservice.users.service.UserAttributesMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
-import java.util.Optional;
 
 import static com.springboot.petcareservice.factory.AdminFactory.getUser;
 

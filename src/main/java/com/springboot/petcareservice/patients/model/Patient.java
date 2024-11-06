@@ -1,6 +1,6 @@
 package com.springboot.petcareservice.patients.model;
 
-import com.springboot.petcareservice.model.User;
+import com.springboot.petcareservice.users.model.User;
 import jakarta.persistence.Entity;
 import jakarta.persistence.PrimaryKeyJoinColumn;
 import lombok.AllArgsConstructor;

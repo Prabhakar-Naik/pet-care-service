@@ -1,7 +1,7 @@
 package com.springboot.petcareservice.appointments.model;
 
 import com.springboot.petcareservice.enums.AppointmentStatus;
-import com.springboot.petcareservice.model.User;
+import com.springboot.petcareservice.users.model.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

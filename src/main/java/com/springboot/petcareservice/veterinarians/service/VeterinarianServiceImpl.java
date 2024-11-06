@@ -1,10 +1,10 @@
-package com.springboot.petcareservice.service;
+package com.springboot.petcareservice.veterinarians.service;
 
 import com.springboot.petcareservice.dtos.EntityConverter;
 import com.springboot.petcareservice.dtos.VeterinarianDto;
 import com.springboot.petcareservice.exceptions.ResourceNotFoundException;
-import com.springboot.petcareservice.model.Veterinarian;
-import com.springboot.petcareservice.repository.VeterinarianRepository;
+import com.springboot.petcareservice.veterinarians.model.Veterinarian;
+import com.springboot.petcareservice.veterinarians.repository.VeterinarianRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
